@@ -1,0 +1,92 @@
+html{
+    background-color: #96A4A5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 1280px;
+    height: 500px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    font-style: oblique;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-style: oblique;
+}
+
+nav {
+    background-color:transparent;
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+  /* Container voor skill */
+  .skill-container {
+    width: 100%;
+    background-color: #e0e0e0; /* Lichte achtergrondkleur */
+    border-radius: 10px;       /* Ronde hoeken */
+    margin: 10px 0;
+}
+
+/* Binnenste balk */
+.skill-bar {
+    height: 25px;              /* Hoogte van de balk */
+    background-color: lightcoral; /* Kleur van de balk */
+    width: 70%;                /* Percentage van de vaardigheid */
+    border-radius: 10px;       /* Zelfde radius voor ronde hoeken */
+    text-align: right;         /* Tekst aan de rechterkant */
+    padding-right: 5px;
+    color: white;              /* Tekstkleur */
+    font-weight: bold;
+}
+button{
+    text-align: center;
+    
+}
